@@ -3,7 +3,6 @@ import { AnimatePresence, motion } from 'framer-motion';
 
 export default function Sidebar({ className = '' }) {
   const [showSidebar, setShowSidebar] = useState(false);
-  // window.addEventListener('click', () => setShowSidebar(!showSidebar));
 
   return (
     <>
